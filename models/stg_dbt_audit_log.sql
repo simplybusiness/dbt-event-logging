@@ -1,9 +1,3 @@
-{{
-    config(
-        enabled=false
-    )
-}}
-
 with audit as (
 
     select * from {{ get_audit_relation() }}

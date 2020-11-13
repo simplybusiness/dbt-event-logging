@@ -1,9 +1,3 @@
-{{
-    config(
-        enabled=false
-    )
-}}
-
 with events as (
 
     select * from {{ref('stg_dbt_audit_log')}}
